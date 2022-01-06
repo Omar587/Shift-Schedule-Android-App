@@ -1,9 +1,4 @@
 # f21torvalds - MY RESTAURANT
-![s2](https://user-images.githubusercontent.com/63128085/148333299-2e20017d-5e6c-4e3e-af6b-c82da7cce9d4.PNG)
-
-![s4](https://user-images.githubusercontent.com/63128085/148333304-050f6695-2bf9-4f93-936a-254b6344c717.PNG)
-
-![s-1](https://user-images.githubusercontent.com/63128085/148333323-a39be224-9369-413e-b400-2ff5b9c0efb8.PNG)
 
 
 ## Description
