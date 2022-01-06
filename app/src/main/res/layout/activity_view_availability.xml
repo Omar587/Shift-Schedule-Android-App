@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activity.employee.AvailabilityActivity"
+    tools:layout_editor_absoluteY="81dp">
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".activity.employee.AvailabilityActivity"
+                tools:layout_editor_absoluteY="81dp">
+
+                <TextView
+                    android:id="@+id/fri_avail_view"
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:text="@string/avail_sample_text"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.486"
+                    app:layout_constraintStart_toEndOf="@+id/fri_view"
+                    app:layout_constraintTop_toTopOf="@+id/fri_view" />
+
+                <TextView
+                    android:id="@+id/sat_avail_view"
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:text="@string/avail_sample_text"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.486"
+                    app:layout_constraintStart_toEndOf="@+id/sat_view"
+                    app:layout_constraintTop_toTopOf="@+id/sat_view" />
+
+                <TextView
+                    android:id="@+id/thurs_avail_view"
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:text="@string/avail_sample_text"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.486"
+                    app:layout_constraintStart_toEndOf="@+id/thurs_view"
+                    app:layout_constraintTop_toTopOf="@+id/thurs_view" />
+
+                <TextView
+                    android:id="@+id/wed_avail_view"
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:text="@string/avail_sample_text"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.486"
+                    app:layout_constraintStart_toEndOf="@+id/wed_view"
+                    app:layout_constraintTop_toTopOf="@+id/wed_view" />
+
+                <TextView
+                    android:id="@+id/tues_avail_view"
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:text="@string/avail_sample_text"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.486"
+                    app:layout_constraintStart_toEndOf="@+id/tuesday_view"
+                    app:layout_constraintTop_toTopOf="@+id/tuesday_view" />
+
+                <TextView
+                    android:id="@+id/mon_avail_view"
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:text="@string/avail_sample_text"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.486"
+                    app:layout_constraintStart_toEndOf="@+id/monday_view"
+                    app:layout_constraintTop_toTopOf="@+id/monday_view" />
+
+                <TextView
+                    android:id="@+id/thurs_view"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="235dp"
+                    android:text="@string/thursday"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/wed_view"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="185dp"
+                    android:text="@string/wednesday"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tuesday_view"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="135dp"
+                    android:text="@string/tuesday"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/fri_view"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="285dp"
+                    android:text="@string/friday"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/sat_view"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="335dp"
+                    android:text="@string/saturday"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/monday_view"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="85dp"
+                    android:text="@string/monday"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/sunday_view"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="35dp"
+                    android:text="@string/sunday"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/sun_avail_view"
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:text="@string/avail_sample_text"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.486"
+                    app:layout_constraintStart_toEndOf="@+id/sunday_view"
+                    app:layout_constraintTop_toTopOf="@+id/sunday_view" />
+
+                <Button
+                    android:id="@+id/edit_availability"
+                    android:layout_width="331dp"
+                    android:layout_height="62dp"
+                    android:layout_marginTop="16dp"
+                    android:backgroundTint="#5DC8DF"
+                    android:text="edit"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sat_view" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

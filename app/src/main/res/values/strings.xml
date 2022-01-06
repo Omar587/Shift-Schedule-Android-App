@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">f21torvalds</string>
+    <string name="first_name_hint">First </string>
+    <string name="last_name_hint">Last</string>
+    <string name="email_hint">Email address</string>
+    <string name="hired_date_field">YYYY-MM-DD</string>
+    <string name="trained_as_hint">Opener or Closer</string>
+    <string name="group_1">Employee\'s Info</string>
+    <string name="hired_on_label">Hired on:</string>
+    <string name="first_name_label">First Name*:</string>
+    <string name="last_name_label">Last name*:</string>
+    <string name="email_label">Email*:</string>
+    <string name="phone_number_label">Phone Number*:</string>
+    <string name="group_2">Hiring Info</string>
+    <string name="will_be_trained_as_label">Will be trained as*:</string>
+    <string name="phone_label">Phone</string>
+    <string name="save_button">Save</string>
+    <string name="opener">Opener</string>
+    <string name="closer">Closer</string>
+    <string name="both">Both</string>
+    <string name="add_employee">addEmployee</string>
+    <string name="element_text">Element</string>
+    <string name="image_description">what</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="view_button">View</string>
+    <string name="user_avatar_desc">user-avatar</string>
+    <string name="view_availability_btn">Availability</string>
+    <string name="avail_sample_text">Opening</string>
+    <string name="sample_card_descriptions">Sample Card Descriptions</string>
+    <string name="employee_name_sample">Employee Name</string>
+    <string-array name="mon_to_fri">
+        <item>None</item>
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>All day</item>
+    </string-array>
+    <string-array name="sat_sun">
+        <item>None</item>
+        <item>All day</item>
+    </string-array>
+    <string name="title_activity_select_shift">SelectShift</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="company_name">Company Name</string>
+    <string name="add_shift">Add Shift</string>
+    <string name="morning">MORNING</string>
+    <string name="afternoon">AFTERNOON</string>
+    <string name="repeatField">Repeat?</string>
+    <string name="no_employee_found">No Employee Found! Maybe they are all busy? Or there is no one at all! 😔</string>
+    <string name="busy_day_label">Busy day?</string>
+    <string name="none">None</string>
+    <string name="schedule">Schedule</string>
+
+    <string name="menu_drawer_open">Menu Open</string>
+
+    <string name="menu_drawer_close">Menu Close</string>
+    <string name="my_restaurant">My Restaurant</string>
+    <string name="home">Home</string>
+    <string name="employee">Employee</string>
+    <string name="schedule_shifts">Schedule Shifts</string>
+    <string name="is_trained_on">Is trained on:</string>
+    <string-array name="shift_ranges">
+        <item>Do not repeat</item>
+        <item>1 weeks</item>
+        <item>2 weeks</item>
+        <item>3 weeks</item>
+    </string-array>
+    <string name="user_s_avatar">User\'s avatar</string>
+    <string name="assign_shift">Assign Shift</string>
+    <string name="repeat_for_whole_month">Repeat Until End of Month</string>
+    <string name="edit_employee">edit employee</string>
+    <string name="delete_employee">Delete Employee</string>
+
+    <string-array name="months_array">
+        <item>December</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+    </string-array>
+
+    <string-array name="year_array">
+        <item>2021</item>
+        <item>2022</item>
+
+    </string-array>
+
+
+</resources>
