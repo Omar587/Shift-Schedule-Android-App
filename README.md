@@ -1,6 +1,7 @@
 # f21torvalds - MY RESTAURANT
 
 
+![app pic](https://user-images.githubusercontent.com/63128085/148336759-5df885e7-eb15-4beb-b606-93f312d4bd63.PNG)
 
 ## Description
 MY RESTAURANT - An Android app to manage shift schedule.
